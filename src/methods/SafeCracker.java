@@ -4,6 +4,7 @@ import java.applet.AudioClip;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.util.Random;
+import java.util.function.LongBinaryOperator;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -17,8 +18,10 @@ public class SafeCracker {
 		/*
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
+
 		 */
-		
+		Loop()
+	tryCode(5);	
 
 	}
 
